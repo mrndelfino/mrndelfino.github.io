@@ -96,6 +96,12 @@
             animation-iteration-count: 10;
 }
 
+.anm-rolla:hover
+{
+    -webkit-animation: roll-in-blurred-right 0.65s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+            animation: roll-in-blurred-right 0.65s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+}
+
 /*Frames*/
 @-webkit-keyframes anm-beat 
 {
@@ -217,6 +223,42 @@
                 transform: translateX(-3px) rotate(-2deg);
     }
 }
+
+@-webkit-keyframes anm-rolla
+{
+    0% 
+    {
+        -webkit-transform: translateX(1000px) rotate(720deg);
+                transform: translateX(1000px) rotate(720deg);
+        opacity: 0;
+    }
+    100% 
+    {
+        -webkit-transform: translateX(0) rotate(0deg);
+                transform: translateX(0) rotate(0deg);
+        -webkit-filter: blur(0);
+                filter: blur(0);
+        opacity: 1;
+    }
+}
+@keyframes anm-rolla 
+{
+    0% 
+    {
+        -webkit-transform: translateX(1000px) rotate(720deg);
+                transform: translateX(1000px) rotate(720deg);       
+        opacity: 0;
+    }
+    100% 
+    {
+        -webkit-transform: translateX(0) rotate(0deg);
+                transform: translateX(0) rotate(0deg);
+        -webkit-filter: blur(0);
+                filter: blur(0);
+        opacity: 1;
+    }
+}
+      
 
 
       

@@ -11,9 +11,21 @@
     box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
 }
 
+.blur:hover
+{
+    -webkit-filter: blur(25px);
+            filter: blur(25px);
+}
+
+.hellodarkness:hover
+{
+    -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+}
+
 .glow:hover 
 {
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
 }
 
 .locomotion:hover {

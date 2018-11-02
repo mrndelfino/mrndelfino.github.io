@@ -6,7 +6,7 @@
 * trend.css Copyright(c) Mariano Delfino 2018. 
 */
 
-.shadow:hover
+.sombra:hover
 {
     box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
 }

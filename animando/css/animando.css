@@ -100,7 +100,13 @@
             animation-timing-function: linear;
     -webkit-animation-iteration-count: infinite;
             animation-iteration-count: infinite;
-  }
+}
+
+.anm-fade 
+{
+    -webkit-animation: anm-fade 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation: anm-fade 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
 
 /*Frames*/
 @-webkit-keyframes anm-beat 
@@ -223,5 +229,35 @@
                 transform: translateX(-3px) rotate(-2deg);
     }
 }
+
+@-webkit-keyframes anm-fade 
+{
+0% {
+        -webkit-transform: scale(0);
+                transform: scale(0);
+        opacity: 1;
+}
+100% {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+        opacity: 1;
+}
+}
+@keyframes anm-fade
+{
+    0% 
+    {
+        -webkit-transform: scale(0);
+                transform: scale(0);
+        opacity: 1;
+    }
+    100% 
+    {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+      
 
 

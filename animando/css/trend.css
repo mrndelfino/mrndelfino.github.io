@@ -1,0 +1,54 @@
+/* 
+* trend.css (http://github.com/mrndelfino)
+* Version: 1.0
+* Created by Mariano Delfino
+
+* trend.css Copyright(c) Mariano Delfino 2018. 
+*/
+
+.shadow:hover
+{
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+}
+
+.glow:hover 
+{
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+
+.locomotion:hover {
+	-webkit-animation: locomotion 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+            animation: locomotion 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;  
+}
+
+/* Frames */
+@-webkit-keyframes locomotion 
+{
+    0% 
+    {
+        box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+        -webkit-transform: translateX(0) translateY(0);
+                transform: translateX(0) translateY(0);
+    }
+    100% 
+    {
+        box-shadow: -1px -1px #3e3e3e, -2px -2px #3e3e3e, -3px -3px #3e3e3e, -4px -4px #3e3e3e, -5px -5px #3e3e3e, -6px -6px #3e3e3e, -7px -7px #3e3e3e, -8px -8px #3e3e3e;
+        -webkit-transform: translateX(10px) translateY(10px);
+                transform: translateX(10px) translateY(10px);
+    }
+}
+@keyframes locomotion 
+{
+    0% 
+    {
+        box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+        -webkit-transform: translateX(0) translateY(0);
+                transform: translateX(0) translateY(0);
+    }
+    100% 
+    {
+        box-shadow: -1px -1px #3e3e3e, -2px -2px #3e3e3e, -3px -3px #3e3e3e, -4px -4px #3e3e3e, -5px -5px #3e3e3e, -6px -6px #3e3e3e, -7px -7px #3e3e3e, -8px -8px #3e3e3e;
+        -webkit-transform: translateX(10px) translateY(10px);
+                transform: translateX(10px) translateY(10px);
+    }
+}

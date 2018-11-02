@@ -3,13 +3,8 @@
 * Version: 1.0
 * Created by Mariano Delfino
 
-* animando.css Copyright Mariano Delfino 2018. 
+* animando.css Copyright(c) Mariano Delfino 2018. 
 */
-
-.shadow:hover
-{
-    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
-}
 
 .anm-bigger 
 {

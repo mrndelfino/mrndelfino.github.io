@@ -96,10 +96,10 @@
             animation-iteration-count: 10;
 }
 
-.anm-rolla:hover
+.anm-rolla
 {
-    -webkit-animation: roll-in-blurred-right 0.65s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
-            animation: roll-in-blurred-right 0.65s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+    -webkit-animation: anm-rolla 0.65s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+            animation: anm-rolla 0.65s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
 }
 
 /*Frames*/

@@ -203,7 +203,8 @@
     }
 }
 
-@-webkit-keyframes anim-thrill {
+@-webkit-keyframes anim-thrill 
+{
     10% 
     {
         -webkit-transform: translateX(3px) rotate(2deg);

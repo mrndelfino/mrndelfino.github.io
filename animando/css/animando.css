@@ -84,7 +84,7 @@
             animation-iteration-count: 1;
 }
 
-.anm-thrill
+.anm-thrill:hover
 {
     -webkit-animation-name: anm-thrill;
             animation-name: anm-thrill;
@@ -92,8 +92,8 @@
             animation-duration: 0.1s;
     -webkit-animation-timing-function: linear;
             animation-timing-function: linear;
-    -webkit-animation-iteration-count: 4;
-            animation-iteration-count: 4;
+    -webkit-animation-iteration-count: 10;
+            animation-iteration-count: 10;
 }
 
 /*Frames*/

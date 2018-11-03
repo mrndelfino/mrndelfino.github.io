@@ -1,9 +1,9 @@
 /* 
-* trend.css (http://github.com/mrndelfino)
+* meta.css (http://github.com/mrndelfino)
 * Version: 1.0
 * Created by Mariano Delfino
 
-* trend.css Copyright(c) Mariano Delfino 2018. 
+* meta.css Copyright(c) Mariano Delfino 2018. 
 */
 
 .sombra:hover
@@ -25,7 +25,7 @@
 
 .glow:hover 
 {
-    box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 8px rgb(255, 255, 255);
 }
 
 .locomotion:hover {

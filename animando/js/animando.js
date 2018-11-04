@@ -4,7 +4,7 @@ $(document).ready(function()
 
     $("body").fadeIn(2000);
 
-	$("a.transition").click(function(event){
+	$("a").click(function(event){
 		event.preventDefault();
 		linkLocation = this.href;
 		$("body").fadeOut(1000, redirectPage);		

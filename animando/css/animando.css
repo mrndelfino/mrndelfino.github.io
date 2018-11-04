@@ -44,7 +44,7 @@
             transform: rotate(10deg);
 }
 
-.anm-levi 
+.anm-fly 
 {
     -webkit-transition-duration: 0.2s;
             transition-duration: 0.2s;
@@ -52,13 +52,13 @@
             transition-property: transform;
 }
 
-.anm-levi:hover 
+.anm-fly:hover 
 {
     -webkit-transform: translateY(-5px);
             transform: translateY(-5px);
 }
 
-.anm-fall 
+.anm-land 
 {
     -webkit-transition-duration: 0.2s;
             transition-duration: 0.2s;
@@ -66,7 +66,7 @@
             transition-property: transform;
 }
 
-.anm-fall:hover 
+.anm-land:hover 
 {
     -webkit-transform: translateY(5px);
             transform: translateY(5px);

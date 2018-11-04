@@ -1,14 +1,14 @@
 $(document).ready(function() 
 {	
-	$("body").css("display", "none");
+	$("container").css("display", "none");
 
-    $("body").fadeIn(1000);
+    $("container").fadeIn(1000);
 
-	$(".transition-fade").click(function(event)
+	$("a").click(function(event)
 	{
 		event.preventDefault();
 		linkLocation = this.href;
-		$("body").fadeOut(1000, redirectPage);		
+		$("container").fadeOut(1000, redirectPage);		
 	});
 		
 	function redirectPage() 

@@ -4,15 +4,15 @@ $(document).ready(function()
 
 
 
-	$(".transition-fade").click(function(event)
-	{
-		event.preventDefault();
-		linkLocation = this.href;
-		$(".container").fadeOut(2000, redirectPage);		
-	});
+	// $(".transition-fade").click(function(event)
+	// {
+	// 	event.preventDefault();
+	// 	linkLocation = this.href;
+	// 	$(".container").fadeOut(2000, redirectPage);		
+	// });
 		
-	function redirectPage() 
-	{
-		window.location = linkLocation;
-	}	
+	// function redirectPage() 
+	// {
+	// 	window.location = linkLocation;
+	// }	
 });

@@ -1,20 +1,20 @@
 <script type="text/javascript">
+    
     $(document).ready(function() 
     {
-        $("body").css("display", "none");
+        $("body").css("display", "none")}
     
         $("body").fadeIn(2000);
     
-        $("a.transition-fade").click(function(event)
+        $("a").click(function(event)
         {
             event.preventDefault();
             linkLocation = this.href;
             $("body").fadeOut(1000, redirectPage);      
         });
-            
         function redirectPage() 
         {
-            window.location = linkLocation;
-        }
+            window.location = linkLocation
+        }              
     });
 </script>

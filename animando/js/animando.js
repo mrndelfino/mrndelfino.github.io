@@ -15,24 +15,27 @@ $(function()
 				  .fadeIn(fadeTime);
 	}
 
-	//Swipe through pages
-	//
-	// var swipeTime = parseInt($("swipe").text());
-	// var swipeNext =	($("next").text())
-	// if(swipeTime != null)
-	// {
-	// 	$(".swipe-left").css("display", "none")
-	// 					.animate({"margin-left": screen.width+"px"}, swipeTime)
-	// 	window.location.href = swipeNext;
-	// }
-
-	//Slider for photos and stuff
-	//
-	// var slideTime = parseInt($("slide").text());
-	// var slidePause = parseInt($("pause").text());
-	// var slideAmount = parseInt($("amount").text());
-	// setInterval(function()
-	// {
-	// 	$(".slide-left").animate({"margin-left": "-="+slideAmount+"px"},slideTime)
-	// },slidePause);
+	var lineColor = ($("color").text());
+	if(lineColor != null)
+	{
+		$(".anm-bottom-line").css("background", lineColor);
+		$(".anm-top-line").css("background", lineColor);
+	}
+	
+	var swipeTime = parseInt($("swipe").text());
+	var swipeNext =	($("next").text())
+	if(swipeTime != null)
+	{
+		$(".swipe-left").css("display", "none")
+						.animate({"margin-left": screen.width+"px"}, swipeTime)
+		window.location.href = swipeNext;
+	}
+	
+	var slideTime = parseInt($("slide").text());
+	var slidePause = parseInt($("pause").text());
+	var slideAmount = parseInt($("amount").text());
+	setInterval(function()
+	{
+		$(".slide-left").animate({"margin-left": "-="+slideAmount+"px"},slideTime)
+	}, slidePause);
 });

@@ -1,19 +1,19 @@
 /* 
 * animando.css (http://github.com/mrndelfino)
-* Version: 1.0
+* Version: 1.5
 * Created by Mariano Delfino
 
 * animando.css Copyright(c) Mariano Delfino 2018. 
 */
 
-.anm-bigger 
+.anm-magnify 
 {
     -webkit-transition-duration: 0.2s;
             transition-duration: 0.2s;
     -webkit-transition-property: transform;
             transition-property: transform;
 }
-.anm-bigger:hover
+.anm-magnify:hover
 {
     -webkit-transform: scale(1.2);
             transform: scale(1.2);

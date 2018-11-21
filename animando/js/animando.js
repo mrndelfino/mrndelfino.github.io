@@ -14,13 +14,6 @@ $(function()
 		$(".fade").css("display", "none")
 				  .fadeIn(fadeTime);
 	}
-
-	var lineColor = ($("color").text());
-	if(lineColor != null)
-	{
-		$(".anm-bottom-line").css("background", lineColor);
-		$(".anm-top-line").css("background", lineColor);
-	}
 	
 	var swipeTime = parseInt($("swipe").text());
 	var swipeNext =	($("next").text())

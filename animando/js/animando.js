@@ -8,23 +8,10 @@
 
 $(function() 
 {	
-	$(".container").css("display", "none")
+	$(".container, .container-fluid, .fade").css("display", "none")
 				   .fadeIn(1000);
 	
-	// var swipeTime = parseInt($("swipe").text());
-	// var swipeNext =	($("next").text())
-	// if(swipeTime != null)
-	// {
-	// 	$(".swipe-left").css("display", "none")
-	// 					.animate({"margin-left": screen.width+"px"}, swipeTime)
-	// 	window.location.href = swipeNext;
-	// }
-	
-	// var slideTime = parseInt($("slide").text());
-	// var slidePause = parseInt($("pause").text());
-	// var slideAmount = parseInt($("amount").text());
-	// setInterval(function()
-	// {
-	// 	$(".slide-left").animate({"margin-left": "-="+slideAmount+"px"},slideTime)
-	// }, slidePause);
+	var swipeNext =	($("next").text())
+	$(".swipe-left").animate({"margin-left": screen.width+"px"}, 1000)
+	window.location.href = swipeNext;
 });
